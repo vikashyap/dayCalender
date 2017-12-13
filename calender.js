@@ -111,11 +111,11 @@
 
         }
 
-        function layout(outerEvents) {
+        function layOutDay(outerEvents) {
             let events = [
                 {start: 30, end: 150}, {start: 540, end: 600}, {start: 560, end: 620}, {start: 610, end: 670}
             ];
             outerEvents?events=outerEvents:events=events;
-            let initLayout = new eventsDirectory(events);
+            let initlayOutDay = new eventsDirectory(events);
         }
-        layout();
+        layOutDay();
