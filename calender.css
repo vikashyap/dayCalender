@@ -1,0 +1,41 @@
+#calendar {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 720px;
+    padding: 0 10px;
+    background-color: #eeeeee;
+}
+
+.event {
+    margin: 0 10px;
+    background-color: #ffffff;
+    border: 1px solid #00000038;
+    border-left: 4px solid #74c143;
+    position: absolute;
+}
+
+.item {
+    padding: 0;
+    margin: 2px;
+    color: #74c143;
+    font-weight: bold;
+}
+.location{
+    padding: 0;
+    margin: 2px;
+    font-size: small;
+    color: grey;
+}
+
+.eventTime ul {
+    float: left;
+    padding: 0;
+    margin: -10px 5px 0 0;
+    text-align: right;
+    list-style: none;
+}
+
+.eventTime li {
+    height: 30px;
+}
